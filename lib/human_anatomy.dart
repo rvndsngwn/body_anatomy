@@ -29,8 +29,8 @@ class _HumanAnatomyState extends State<HumanAnatomy> {
 
   Widget humanAnatomy() {
     return Container(
-      width: 340.0,
-      height: 557,
+      width: 320.0 // always define no. as a multiple of 8
+      height: 560.0
       child: SizedBox(
         child: Stack(
           children: <Widget>[
