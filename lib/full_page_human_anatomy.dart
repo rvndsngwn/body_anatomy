@@ -32,13 +32,13 @@ class _FullPageHumanAnatomyState extends State<FullPageHumanAnatomy> {
           children: <Widget>[
             widget.container != null ? widget.container : Container(),
             TopTitle(
-              topMargin: 120.0,
-              leftMargin: 60.0,
+              topMargin: 136.0,
+              leftMargin: 66.0,
               title: widget.title,
             ),
             Container(
               alignment: Alignment.center,
-              margin: EdgeInsets.only(top: 60.0),
+              margin: EdgeInsets.only(top: 80.0),
               child: HumanAnatomy(
                 onChanged: bodyPartList,
               ),
