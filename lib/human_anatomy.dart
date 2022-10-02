@@ -8,7 +8,7 @@ class HumanAnatomy extends StatefulWidget {
 
   const HumanAnatomy({Key key, this.onChanged}) : super(key: key);
   @override
-  _HumanAnatomyState createState() => new _HumanAnatomyState();
+  State<HumanAnatomy> createState() => new _HumanAnatomyState();
 }
 
 class _HumanAnatomyState extends State<HumanAnatomy> {
@@ -113,7 +113,8 @@ class _HumanAnatomyState extends State<HumanAnatomy> {
                 _bodyPartList.add(svgName);
                 // _bodyPartList.forEach((e) => print(e));
               }
-            });
+            },
+            );
           },
           child: bodyPartSvg),
     );
