@@ -17,7 +17,7 @@ class FullPageHumanAnatomy extends StatefulWidget {
       : super(key: key);
 
   @override
-  _FullPageHumanAnatomyState createState() => _FullPageHumanAnatomyState();
+  State<FullPageHumanAnatomy> createState() => _FullPageHumanAnatomyState();
 }
 
 class _FullPageHumanAnatomyState extends State<FullPageHumanAnatomy> {
